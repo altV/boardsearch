@@ -1,0 +1,8 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  parameter: lib_path
+  value: "asdfasdf"
+two:
+  parameter: lib_path
+  value: "fdsfe"

@@ -1,0 +1,15 @@
+#fixing windows colours #FIXME: make it windows only
+
+require 'win32console'
+
+#time and menu plugins :)
+
+require 'autotest/timestamp'
+require 'autotest/menu'
+require 'autotest/snarl'
+
+#Skip .svn and other folders
+
+#Autotest.add_hook :initialize do |at|
+#  %w{.svn .hg .git vendor}.each {|exception| at.add_exception(exception)}
+#end
